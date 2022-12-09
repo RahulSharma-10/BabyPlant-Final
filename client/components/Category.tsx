@@ -21,8 +21,11 @@ function classNames(...classes:any) {
 
 export default function Example() {
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+
   const [filteredProducts,setFilteredProducts]=useState(products);
+  
   const CategoryClickHandler=(e:any)=>{
+
     console.log(e.target.innerHTML);
     if(e.target.innerHTML==='All Products')
     {
@@ -34,6 +37,7 @@ export default function Example() {
       });
       setFilteredProducts(result);
     }
+    
   }
 
   return (

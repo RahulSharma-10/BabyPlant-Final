@@ -7,19 +7,19 @@ const AboutTeam =() => {
 <div className="relative py-2">
     <div className="absolute mb-4 text-center transform translate-x-1/2 -top-16 right-1/2">
         <a href="#" className="relative block">
-            <img alt="profil" src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" className="mx-auto object-cover rounded-lg h-40 w-40  border-2 border-white dark:border-gray-800"/>
+            <img alt="profil" src="https://i.postimg.cc/mr58VxWd/296693128-1519137811892060-3198089988025094048-n.jpg" className="mx-auto object-cover rounded-lg h-40 w-40  border-2 border-white dark:border-gray-800"/>
         </a>
     </div>
     <div className="py-4 pt-24 bg-white rounded-lg shadow dark:bg-gray-800">
         <div className="text-center">
             <p className="text-2xl text-gray-800 dark:text-white">
-                Charlie
+                Sourabh Kumar
             </p>
             <p className="text-xl font-light text-gray-500 dark:text-gray-200">
-                Lead dev
+                Chief Executive Officer and Entrepreneur
             </p>
             <p className="py-4 mx-auto font-light text-gray-500 text-md w-60 dark:text-gray-400">
-                Charlie, born December 18, 1993 in Challans, is an imitator.
+                Mr. Sourabh Kumar is a widely renowned entrpereneur. 
             </p>
         </div>
         <div className="flex items-center justify-between w-40 pt-8 mx-auto text-gray-500 border-t border-gray-200">

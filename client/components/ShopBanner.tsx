@@ -1,28 +1,30 @@
+import Typewriter from 'typewriter-effect';
+
+
 export default function Example() {
     return (
       <div className="bg-gray-900">
         <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            <span className="block text-white">Ready to dive in?</span>
-            <span className="block text-indigo-600">Start your free trial today.</span>
-          </h2>
+          <div className="text-5xl">
+          <Typewriter
+        onInit={(typewriter) => {
+          typewriter
+  .pauseFor(2500)
+  .typeString('Its time to go green and')
+  .pauseFor(300)
+  .deleteChars(9)
+  .typeString('<strong><span style="color: #27ae60;">green</span></strong> and make an  ')
+  .typeString('<strong><span style="color: #9999ff;">impact!</span></strong>')
+  .pauseFor(300)
+  .typeString('See our wide range of products')
+  .start();
+        }}
+      /></div>
+         
           <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-            <div className="inline-flex rounded-md shadow">
-              <a
-                href="#"
-                className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
-              >
-                Get started
-              </a>
-            </div>
-            <div className="ml-3 inline-flex rounded-md shadow">
-              <a
-                href="#category"
-                className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 hover:bg-indigo-50"
-              >
-                Learn more
-              </a>
-            </div>
+            {/* <img src="https://images.unsplash.com/photo-1492496913980-501348b61469?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+            className="">
+            </img> */}
           </div>
         </div>
       </div>

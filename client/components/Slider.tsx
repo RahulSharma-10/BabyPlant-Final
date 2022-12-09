@@ -3,21 +3,22 @@ import { NextPage } from 'next';
 import { ReactNode } from "react";
 import ppt from './../Assets/PPT/Copy-of-BTP Presentation_MidSem_7thSemester_page-0001.jpg'
 
+
 const images=[
     {
-        src:'https://im3.ezgif.com/tmp/ezgif-3-4f3debef1f.jpg',
+        src:'https://i.postimg.cc/500m4SQG/Showroom1.jpg',
         type:'image'
     },
     {
-        src:'https://im3.ezgif.com/tmp/ezgif-3-79af32cf4a.jpg',
+        src:'https://i.postimg.cc/T1bNxJZx/show2.jpg',
         type:'image'
     },
     {
-        src:'https://im3.ezgif.com/tmp/ezgif-3-24f41578ef.jpg',
+        src:'https://i.postimg.cc/K80NdWRL/show3.jpg',
         type:'image'
     },
     {
-        src:'https://im3.ezgif.com/tmp/ezgif-3-098bec3c0d.jpg',
+        src:'https://i.postimg.cc/T3516LP9/show4.jpg',
         type:'image'
     },
 ]

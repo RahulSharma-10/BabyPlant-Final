@@ -12,7 +12,6 @@ const Knowledge=()=>{
         <title>Knowledge</title>
         </Head>
         <Navbar/>
-        <Slider/>
         <Footer/>
         </>
     )

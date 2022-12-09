@@ -6,13 +6,13 @@ const AboutDesc=()=>{
                 <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
                     <div className="ml-auto lg:col-start-2 lg:max-w-2xl">
                         <p className="text-base font-semibold leading-6 text-indigo-500 uppercase">
-                            Interactive
+                            Welcome to our Store!
                         </p>
                         <h4 className="mt-2 text-2xl font-extrabold leading-8 text-gray-900 dark:text-white sm:text-3xl sm:leading-9">
-                            Interactivity between team members is the key of the success.
+                            Interactivity between the plant ecosystem is the key of the success.
                         </h4>
                         <p className="mt-4 text-lg leading-6 text-gray-500 dark:text-gray-300">
-                            Build a simply and powered collaborative space for all your team. Track, share, measure, you have a fully control, it&#x27;s never be simply and efficient.
+                            Build a simply and powered collaborative space for all your farming needs. Track, share, measure, you have a fully control, it&#x27;s never be simply and efficient.
                         </p>
                         <ul className="gap-6 mt-8 md:grid md:grid-cols-2">
                             <li className="mt-6 lg:mt-0">
@@ -24,7 +24,7 @@ const AboutDesc=()=>{
                                         </svg>
                                     </span>
                                     <span className="ml-4 text-base font-medium leading-6 text-gray-500 dark:text-gray-200">
-                                        Live modifications
+                                        Shipping all across India
                                     </span>
                                 </div>
                             </li>
@@ -37,7 +37,7 @@ const AboutDesc=()=>{
                                         </svg>
                                     </span>
                                     <span className="ml-4 text-base font-medium leading-6 text-gray-500 dark:text-gray-200">
-                                        Data tracker
+                                        Huge Retail Footprint
                                     </span>
                                 </div>
                             </li>
@@ -50,7 +50,7 @@ const AboutDesc=()=>{
                                         </svg>
                                     </span>
                                     <span className="ml-4 text-base font-medium leading-6 text-gray-500 dark:text-gray-200">
-                                        24/24 support
+                                        24/7 support
                                     </span>
                                 </div>
                             </li>
@@ -63,7 +63,7 @@ const AboutDesc=()=>{
                                         </svg>
                                     </span>
                                     <span className="ml-4 text-base font-medium leading-6 text-gray-500 dark:text-gray-200">
-                                        Free tips to improve work time
+                                        Free tips to improve farming practices
                                     </span>
                                 </div>
                             </li>

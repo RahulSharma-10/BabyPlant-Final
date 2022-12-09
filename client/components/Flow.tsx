@@ -28,7 +28,7 @@ export default function Flow() {
         Welcome to Baby Plant. Home of sustainable Hydroponics and Aquaponics farms.
         We are based in Ranchi and ship nationwide!
         </p>
-        <div className='text-4xl text-bold mt-4'>
+        <div className='text-4xl font-bold mt-4'>
         <Typewriter
         onInit={(typewriter) => {
           typewriter.typeString('Welcome')
@@ -36,7 +36,7 @@ export default function Flow() {
               console.log('String typed out!');
             })
             .pauseFor(2500)
-            .deleteAll()
+            // .deleteAll()
             .callFunction(() => {
               console.log('All strings were deleted');
             })
