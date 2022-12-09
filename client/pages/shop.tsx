@@ -4,6 +4,7 @@ import Category from "../components/Category";
 import Footer from "../components/Footer";
 import Head from 'next/head';
 import Scroll from "../components/Scroll";
+import ShopBanner from "./../components/ShopBanner";
 
 export default function Home() {
 
@@ -16,6 +17,7 @@ export default function Home() {
       <title>BabyPlant - Shop</title>
       </Head>
     <Navbar />
+    <ShopBanner/>
     <Category/>
     <Footer/>
     </div>  

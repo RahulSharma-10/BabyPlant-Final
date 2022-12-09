@@ -20,12 +20,12 @@ const TestimonialCard: NextPage<any> = ({
 				/>
 			</div>
 			<div className='mx-[1.15rem] md:mx-10 my-3 md:my-5 h-[60%] flex flex-col justify-between'>
-				<p className='text-white text-[0.5rem] font-bold leading-[0.94rem] md:text-xs md:leading-6 md:mb-3'>
+				<p className='text-gray-900 text-[0.5rem]  leading-[0.94rem] md:text-base md:leading-6 md:mb-3'>
 					{message}
 				</p>
 				<div className='flex justify-between items-center'>
 					<div className=' text-semibold flex flex-col justify-center'>
-						<p className='text-[0.625rem] text-white md:text-[0.875rem]'>
+						<p className='text-[0.625rem] text-gray-900 md:text-[0.875rem]'>
 							{writer}
 						</p>
 					</div>

@@ -4,8 +4,10 @@ import { Dialog, Disclosure, Menu, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, FunnelIcon, MinusIcon, PlusIcon, Squares2X2Icon } from '@heroicons/react/20/solid'
 import ProductList from "../components/ProductList";
+import {products} from "../products";
 
 const subCategories = [
+  {name:'All Products',href:'#'},
   { name: 'Hydroponics', href: '#' },
   { name: 'Nutrients', href: '#' },
   { name: 'Grow Media', href: '#' },
@@ -19,8 +21,19 @@ function classNames(...classes:any) {
 
 export default function Example() {
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
-  const CategoryClickHandler=()=>{
-
+  const [filteredProducts,setFilteredProducts]=useState(products);
+  const CategoryClickHandler=(e:any)=>{
+    console.log(e.target.innerHTML);
+    if(e.target.innerHTML==='All Products')
+    {
+      setFilteredProducts(products);
+    }
+    else {
+      const result = products.filter((f:any) => {
+        return f.category ===e.target.innerHTML ;
+      });
+      setFilteredProducts(result);
+    }
   }
 
   return (
@@ -109,7 +122,7 @@ export default function Example() {
 
               {/* Product grid */}
               <div className="lg:col-span-3">
-                <ProductList/>
+                <ProductList items={filteredProducts}/>
               </div>
             </div>
           </section>
