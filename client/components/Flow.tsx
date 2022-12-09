@@ -5,6 +5,7 @@ import { useSpring, animated, config } from 'react-spring'
 import {useState} from 'react'
 import { motion } from "framer-motion";
 import Slider from "./Slider";
+import Typewriter from 'typewriter-effect';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlantWilt } from '@fortawesome/free-solid-svg-icons'
 
@@ -27,7 +28,22 @@ export default function Flow() {
         Welcome to Baby Plant. Home of sustainable Hydroponics and Aquaponics farms.
         We are based in Ranchi and ship nationwide!
         </p>
-
+        <div className='text-4xl text-bold mt-4'>
+        <Typewriter
+        onInit={(typewriter) => {
+          typewriter.typeString('Welcome')
+            .callFunction(() => {
+              console.log('String typed out!');
+            })
+            .pauseFor(2500)
+            .deleteAll()
+            .callFunction(() => {
+              console.log('All strings were deleted');
+            })
+            .start();
+        }}
+      />
+</div>
         <a
           className="mt-8 inline-flex items-center rounded border border-indigo-600 bg-indigo-600 px-8 py-3 text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
         >
