@@ -3,7 +3,10 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { useSpring, animated, config } from 'react-spring'
 import {useState} from 'react'
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
+import Slider from "./Slider";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlantWilt } from '@fortawesome/free-solid-svg-icons'
 
 export default function Flow() {
     return (
@@ -13,16 +16,11 @@ export default function Flow() {
       <div
         className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full"
       >
-        <motion.img 
-          whileHover={{ scale: 1.2 }} 
-          whileTap={{ scale: 0.8 }}
-          alt="Party"
-          src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-          className="absolute inset-0 h-full w-full object-cover"
-        />
+        <Slider/>
       </div>
 
       <div className="lg:py-24">
+      
         <h2 className="text-3xl font-bold sm:text-4xl">Grow With Us</h2>
 
         <p className="mt-4 text-white-600">

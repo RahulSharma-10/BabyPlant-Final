@@ -1,33 +1,38 @@
 import { NextPage } from 'next';
 import FeaturedItem from './FeaturedItem';
 import toi from './../../Assets/The_times_of_india.svg';
+import pk from './../../Assets/logo-1.svg';
+import ie from './../../Assets/indian-express-logo-n.svg';
+import msme from './../../Assets/msme.svg';
+import ht from './../../Assets/ht-logo.svg';
+import hindu from './../../Assets/thehindu-logo.svg';
 
 const Featured=()=>{
      
     const items = [
         {
             src: toi,
-            url: 'https://timesofindia.indiatimes.com/blogs/voices/in-this-digital-age-here-are-some-suggestions-for-making-your-child-smart/'
+            url: '#'
         },
         {
-            src: toi,
-            url: 'https://www.newindianexpress.com/lifestyle/health/2021/sep/26/a-head-start-2362854.html'
+            src: pk,
+            url: '#'
         },
         {
-            src: toi,
-            url: 'http://bweducation.businessworld.in/article/How-Do-Edtech-Platforms-Impact-Learning/23-07-2021-397726/'
+            src: ie,
+            url: '#'
         },
         {
-            src: toi,
-            url: 'https://podcasts.apple.com/us/podcast/insiders-talk-with-pooja-midha-and-kavitha/id1584152928?i=1000541033962'
+            src: msme,
+            url: '#'
         },
         {
-            src: toi,
-            url: 'https://open.spotify.com/episode/2RvYDUK7fVV3sEOiHXYTMa'
+            src: ht,
+            url: '#'
         },
         {
-            src: toi,
-            url: 'https://yourstory.com/herstory/2021/09/women-entrepreneurs-early-learning-tech-toys/amp'
+            src: hindu,
+            url: '#'
         }
     ];
     return(

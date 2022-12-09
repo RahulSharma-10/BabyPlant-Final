@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Head from "next/head";
 import Scroll from "../components/Scroll";
+import Slider from "../components/Slider";
 
 const Knowledge=()=>{
     return(
@@ -11,6 +12,7 @@ const Knowledge=()=>{
         <title>Knowledge</title>
         </Head>
         <Navbar/>
+        <Slider/>
         <Footer/>
         </>
     )

@@ -6,7 +6,13 @@ import {
   faAmbulance,
   faAnchor,
   faWater,
-  faClock
+  faClock,
+  faBacteria,
+  faSun,
+  faCloudRain,
+  faMosquito,
+  faScrewdriver,
+  faScrewdriverWrench
 } from "@fortawesome/free-solid-svg-icons";
 
 
@@ -51,7 +57,7 @@ export default function Flow() {
         icon={faWater}
         style={{ fontSize: 40, color: "pink" }}
       />
-        <h2 className="mt-4 text-xl font-bold text-white">Lower water consumption</h2>
+        <h2 className="mt-4 text-xl font-bold text-white">Lower Water Consumption</h2>
 
         <p className="mt-1 text-sm text-gray-300">
           It consumes 20 times less water than conventional agriculture, as the water is recirculated and reused.
@@ -79,30 +85,16 @@ export default function Flow() {
         className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
         href="/services/digital-campaigns"
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-10 w-10 text-pink-500"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path d="M12 14l9-5-9-5-9 5 9 5z" />
-          <path
-            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-          />
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-          />
-        </svg>
+        <FontAwesomeIcon
+        icon={faBacteria}
+        style={{ fontSize: 40, color: "pink" }}
+      />
 
-        <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+        <h2 className="mt-4 text-xl font-bold text-white">Less Contamination</h2>
 
         <p className="mt-1 text-sm text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-          possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+        Since it is a closed system, there is neither water contamination nor soil with the 
+        remains of fertilisers or pesticides.
         </p>
       </a>
 
@@ -110,30 +102,16 @@ export default function Flow() {
         className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
         href="/services/digital-campaigns"
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-10 w-10 text-pink-500"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path d="M12 14l9-5-9-5-9 5 9 5z" />
-          <path
-            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-          />
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-          />
-        </svg>
-
-        <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+        
+        <FontAwesomeIcon
+        icon={faCloudRain}
+        style={{ fontSize: 40, color: "pink" }}
+      />
+        <h2 className="mt-4 text-xl font-bold text-white">Adaptation to Extreme Conditions</h2>
 
         <p className="mt-1 text-sm text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-          possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+          Owing to the absence of soil, It allows plants to be grown in harsh environments, 
+          under extreme weather conditions since the system can be controlled.
         </p>
       </a>
 
@@ -141,30 +119,16 @@ export default function Flow() {
         className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
         href="/services/digital-campaigns"
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-10 w-10 text-pink-500"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path d="M12 14l9-5-9-5-9 5 9 5z" />
-          <path
-            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-          />
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-          />
-        </svg>
-
-        <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+        
+        <FontAwesomeIcon
+        icon={faMosquito}
+        style={{ fontSize: 40, color: "pink" }}
+      />
+        <h2 className="mt-4 text-xl font-bold text-white">No Need for Herbicides/Pesticides</h2>
 
         <p className="mt-1 text-sm text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-          possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+        There is no need for herbicides or pesticides: they are safe from weeds and insects, 
+        making unnecessaries the use of these products.
         </p>
       </a>
 
@@ -172,55 +136,17 @@ export default function Flow() {
         className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
         href="/services/digital-campaigns"
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-10 w-10 text-pink-500"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path d="M12 14l9-5-9-5-9 5 9 5z" />
-          <path
-            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-          />
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-          />
-        </svg>
-
-        <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+        
+        <FontAwesomeIcon
+        icon={faScrewdriverWrench}
+        style={{ fontSize: 40, color: "pink" }}
+      />
+        <h2 className="mt-4 text-xl font-bold text-white">Low Maintainence</h2>
 
         <p className="mt-1 text-sm text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-          possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+          After the initial setup, Hydroponic Systems are relatively much easier to maintainence. Also, the recurrence
+          of maintainence requirements is lower resulting in much lower maintainence cost and effort.
         </p>
-      </a>
-    </div>
-
-    <div className="mt-12 text-center">
-      <a
-        href="#"
-        className="mt-8 inline-flex items-center rounded border border-pink-600 bg-pink-600 px-8 py-3 text-white hover:bg-transparent focus:outline-none focus:ring active:text-pink-500"
-      >
-        <span className="text-sm font-medium"> Get Started </span>
-
-        <svg
-          className="ml-3 h-5 w-5"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M17 8l4 4m0 0l-4 4m4-4H3"
-          />
-        </svg>
       </a>
     </div>
   </div>
