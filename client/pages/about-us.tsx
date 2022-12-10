@@ -5,6 +5,7 @@ import AboutTeam from "../components/AboutTeam";
 import Footer from "../components/Footer";
 import Head from "next/head";
 import Scroll from "../components/Scroll";
+import AboutUsGallery from "../components/AboutUsGallery/AboutUsGallery";
 
 const AboutUs=()=>{
     return(
@@ -15,6 +16,7 @@ const AboutUs=()=>{
             </Head>
             <Navbar/>
             <AboutHeader/>
+            <AboutUsGallery/>
             <AboutDesc />
             <AboutTeam />
             <Footer/>

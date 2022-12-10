@@ -17,7 +17,7 @@ const AboutHeader=()=>{
   .typeString('Want to go Organic?')
   .pauseFor(300)
   .deleteChars(8)
-  .typeString('<strong><span style="color: #27ae60;">Organic</span></strong>?')
+  .typeString('<strong><span style="color: #27ae60;">Organic?</span></strong>')
   .pauseFor(3000)
   .start();
         }}

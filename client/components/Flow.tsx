@@ -39,7 +39,7 @@ export default function Flow() {
 </div>
         <a
           className="mt-8 inline-flex items-center rounded border border-indigo-600 bg-indigo-600 px-8 py-3 text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
-        >
+        href="/products">
           <span className="text-sm font-medium"> Shop Now </span>
 
           <svg

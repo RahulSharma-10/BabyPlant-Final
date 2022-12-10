@@ -5,7 +5,7 @@ import { products } from '../../products';
 
 
 
-const reviews = { href: '#', average: 4, totalCount: 117 }
+
 
 function classNames(...classes : string[]) {
   return classes.filter(Boolean).join(' ')
@@ -21,7 +21,9 @@ export async function getServerSideProps({
 	};
 }
 function Example( {productdata}:{productdata:any}){
-    
+  let average = Math.floor((Math.random() * 5) + 1);
+  let totalCount = Math.floor((Math.random() * 100) + 1);
+  const reviews={average,totalCount};
   return (
   <div>
     <Head>
@@ -76,9 +78,9 @@ function Example( {productdata}:{productdata:any}){
                   ))}
                 </div>
                 <p className="sr-only">{reviews.average} out of 5 stars</p>
-                <a href={reviews.href} className="ml-3 text-sm font-medium text-indigo-600 hover:text-indigo-500">
+                <div  className="ml-3 text-sm font-medium text-indigo-600 hover:text-indigo-500">
                   {reviews.totalCount} reviews
-                </a>
+                </div>
               </div>
               <button
                 type="submit"

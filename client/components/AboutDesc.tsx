@@ -63,7 +63,7 @@ const AboutDesc=()=>{
                                         </svg>
                                     </span>
                                     <span className="ml-4 text-base font-medium leading-6 text-gray-500 dark:text-gray-200">
-                                        Free tips to improve farming practices
+                                        Free tips to improve farming yield.
                                     </span>
                                 </div>
                             </li>
@@ -72,12 +72,12 @@ const AboutDesc=()=>{
                     <div className="relative mt-10 lg:-mx-4 relative-20 lg:mt-0 lg:col-start-1">
                         <div className="relative space-y-4">
                             <div className="flex items-end justify-center space-x-4 lg:justify-start">
-                                <img className="w-32 rounded-lg shadow-lg md:w-56" src="https://images.unsplash.com/photo-1657299156000-2cccaea36b2b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="1"/>
+                                <img className="w-32 rounded-lg shadow-lg md:w-56" src="https://images.unsplash.com/photo-1601985705806-5b9a71f6004f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="1"/>
                                 <img className="w-40 rounded-lg shadow-lg md:w-64" src="https://images.unsplash.com/photo-1670248549474-adfc766594e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="2"/>
                             </div>
                             <div className="flex items-start justify-center ml-12 space-x-4 lg:justify-start">
-                                <img className="w-24 rounded-lg shadow-lg md:w-40" src="https://images.unsplash.com/photo-1670339059586-828ce3377f4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80" alt="3"/>
-                                <img className="w-32 rounded-lg shadow-lg md:w-56" src="https://images.unsplash.com/photo-1670338724585-2d800dedcf77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" alt="4"/>
+                                <img className="w-24 rounded-lg shadow-lg md:w-40" src="https://images.unsplash.com/photo-1470755008296-2939845775eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="3"/>
+                                <img className="w-32 rounded-lg shadow-lg md:w-56" src="https://images.unsplash.com/photo-1487798452839-c748a707a6b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="4"/>
                             </div>
                         </div>
                     </div>

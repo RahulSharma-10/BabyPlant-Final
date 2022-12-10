@@ -7,7 +7,7 @@ aria-label="Site Footer"
   <div className="hidden lg:relative lg:col-span-2 lg:block">
     <img
       alt="Art"
-      src="https://images.unsplash.com/photo-1470058869958-2a77ade41c02?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+      src="https://i.postimg.cc/6pwMg5C8/Screenshot-2022-12-10-at-9-33-14-PM.png"
       className="absolute inset-0 h-full w-full object-cover"
     />
   </div>
@@ -15,13 +15,13 @@ aria-label="Site Footer"
   <div className="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
     <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
       <div>
-        <p className="font-medium">
+        <div className="font-medium">
           <span className="text-xs uppercase tracking-widest"> Call </span>
 
-          <a className="block text-2xl hover:opacity-75 sm:text-3xl" href="">
-            0123456789
-          </a>
-        </p>
+          <p className="block text-2xl hover:opacity-75 sm:text-3xl" >
+            +91 9304206996
+          </p>
+        </div>
 
         <ul className="mt-8 space-y-2 text-sm">
           <li>Monday to Friday: 10am - 5pm</li>
@@ -31,7 +31,7 @@ aria-label="Site Footer"
         <div className="mt-16 flex gap-3">
           <a
             className="rounded-full border border-white/25 p-2 hover:opacity-75"
-            href=""
+            href="https://www.facebook.com/babyplant.in"
             target="_blank"
             rel="noreferrer"
           >
@@ -53,7 +53,7 @@ aria-label="Site Footer"
 
           <a
             className="rounded-full border border-white/25 p-2 hover:opacity-75"
-            href=""
+            href="https://www.instagram.com/babyplant.in/"
             target="_blank"
             rel="noreferrer"
           >
@@ -73,7 +73,7 @@ aria-label="Site Footer"
             </svg>
           </a>
 
-          <a
+          {/* <a
             className="rounded-full border border-white/25 p-2 hover:opacity-75"
             href=""
             target="_blank"
@@ -113,7 +113,7 @@ aria-label="Site Footer"
                 clip-rule="evenodd"
               />
             </svg>
-          </a>
+          </a> 
 
           <a
             className="rounded-full border border-white/25 p-2 hover:opacity-75"
@@ -135,33 +135,33 @@ aria-label="Site Footer"
                 clip-rule="evenodd"
               />
             </svg>
-          </a>
+          </a>*/}
         </div>
       </div>
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
         <div>
-          <p className="font-medium">Support</p>
+          <p className="font-medium">Explore BabyPlant</p>
 
           <nav
             aria-label="Footer Nav"
             className="mt-4 flex flex-col space-y-2 text-sm text-gray-300"
           >
-            <a className="hover:opacity-75" href=""> Contact </a>
-            <a className="hover:opacity-75" href=""> FAQs </a>
-            <a className="hover:opacity-75" href=""> Live Chat </a>
-            <a className="hover:opacity-75" href=""> Forums </a>
+            <a className="hover:opacity-75" href="/"> Home </a>
+            <a className="hover:opacity-75" href="/products"> Shop </a>
+            <a className="hover:opacity-75" href="/about-us"> About Us </a>
+            <a className="hover:opacity-75" href="/knowledge"> Knowledge </a>
           </nav>
         </div>
 
         <div>
-          <p className="font-medium">Products</p>
+          <p className="font-medium">Support</p>
 
           <nav className="mt-4 flex flex-col space-y-2 text-sm text-gray-300">
-            <a className="hover:opacity-75" href=""> 1to1 Coaching </a>
+            <a className="hover:opacity-75" href=""> Farming Learn Modules </a>
             <a className="hover:opacity-75" href=""> Lesson Plans </a>
-            <a className="hover:opacity-75" href=""> Meal Plans </a>
-            <a className="hover:opacity-75" href=""> Gym Sessions </a>
+            <a className="hover:opacity-75" href=""> Farming Plans </a>
+            <a className="hover:opacity-75" href=""> Hydroponics Sessions </a>
           </nav>
         </div>
       </div>
@@ -177,16 +177,11 @@ aria-label="Site Footer"
           <a className="hover:opacity-75" href=""> Returns Policy </a>
         </div>
 
-        <p className="mt-4 sm:mt-0">&copy; 2022 Company Name.</p>
+        <p className="mt-4 sm:mt-0">&copy; 2022 BabyPlant</p>
       </div>
 
       <p className="mt-8 text-xs text-gray-500">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-        mollitia quia quod repellendus. Porro harum, odio dolore perspiciatis
-        praesentium provident esse consequatur quibusdam aperiam, cupiditate
-        omnis modi in quasi? In, maxime odio vel repellat sed earum? Debitis
-        quaerat facilis animi. Odio natus nostrum laboriosam impedit magnam
-        praesentium asperiores consectetur ipsum.
+        Contact us for any queries.
       </p>
     </div>
   </div>
