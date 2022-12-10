@@ -1,6 +1,6 @@
 import Typewriter from 'typewriter-effect';
 import Img from 'next/image';
-
+import {motion} from "framer-motion";
 
 
   export default function Example(){
@@ -12,9 +12,8 @@ import Img from 'next/image';
       <div
         className=" block relative h-80 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-[420px]"
       >
-        
         <Img
-                src="https://images.unsplash.com/photo-1492496913980-501348b61469?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                src="https://images.unsplash.com/photo-1518931169559-527a99b4074d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                 layout='fill'
                 objectFit='cover'
                 priority 
@@ -31,7 +30,7 @@ import Img from 'next/image';
         }}
         onInit={(typewriter) => {
           typewriter
-  .pauseFor(1000)
+  .pauseFor(200)
   .typeString('Its time to go green and')
   .pauseFor(300)
   .deleteChars(9)

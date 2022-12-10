@@ -15,7 +15,7 @@ export default function Flow() {
 
       <div className="lg:py-24">
       
-        <h2 className="text-3xl font-bold sm:text-4xl">Grow With Us</h2>
+        <h2 className="text-3xl font-bold sm:text-4xl font-poppins">Grow With Us</h2>
 
         <p className="mt-4 text-white-600">
         Welcome to Baby Plant. Home of sustainable Hydroponics and Aquaponics farms.

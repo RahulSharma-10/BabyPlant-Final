@@ -20,7 +20,7 @@ const TestimonialCard: NextPage<any> = ({
 				/>
 			</div>
 			<div className='mx-[1.15rem] md:mx-10 my-3 md:my-5 h-[60%] flex flex-col justify-between'>
-				<p className='text-gray-900 text-[0.5rem]  leading-[0.94rem] md:text-base md:leading-6 md:mb-3'>
+				<p className='text-gray-900 text-[0.5rem] font-poppins leading-[0.94rem] md:text-base md:leading-6 md:mb-3'>
 					{message}
 				</p>
 				<div className='flex justify-between items-center'>

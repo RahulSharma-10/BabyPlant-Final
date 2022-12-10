@@ -21,6 +21,7 @@ export default function Home() {
 
   return (
     <>
+    <div className="font-poppins">
     <Scroll/>
     <Head>
       <title>BabyPlant</title>
@@ -32,6 +33,7 @@ export default function Home() {
       <Featured/>
       <Glimpses2/>
       <Footer />
+      </div>
     </>
   );
 }

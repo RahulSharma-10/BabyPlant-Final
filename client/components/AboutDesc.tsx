@@ -1,11 +1,11 @@
 
 const AboutDesc=()=>{
     return(
-        <div className="relative w-full p-4 px-4 mx-auto bg-white dark:bg-gray-800 sm:px-6 lg:px-8 py-26 ">
+        <div className=" relative w-full p-4 px-4 mx-auto bg-white dark:bg-gray-800 sm:px-6 lg:px-8 py-26 ">
             <div className="relative">
                 <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
                     <div className="ml-auto lg:col-start-2 lg:max-w-2xl">
-                        <p className="text-base font-semibold leading-6 text-indigo-500 uppercase">
+                        <p className="text-base font-semibold leading-6 text-indigo-500 uppercase font-poppins">
                             Welcome to our Store!
                         </p>
                         <h4 className="mt-2 text-2xl font-extrabold leading-8 text-gray-900 dark:text-white sm:text-3xl sm:leading-9">

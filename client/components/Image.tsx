@@ -57,7 +57,7 @@ export function Image({ alt, category, index, aspectRatio }: Props) {
         style={{ y }}
         initial={{ x: 100 }}
         animate={{ x: 0, transition: { delay: 0.5, duration: 1, ease } }}
-      >{`#00${index}`}</motion.h2>
+      >{`#0${index}`}</motion.h2>
     </motion.section>
   );
 }
