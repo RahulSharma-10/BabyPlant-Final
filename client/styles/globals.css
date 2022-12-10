@@ -37,3 +37,160 @@ a {
   background: blanchedalmond;
   transform-origin: 0%;
 }
+
+.gallery {
+  --black: #000000;
+  --ash-black: #222;
+  --white: #fafafa;
+  --sky: #00ccff;
+  --green: #22dddd;
+  --blue: #1300ff;
+  --dusk: #6600ff;
+  --purple: #9900ff;
+  --pink: #ff0066;
+  --red: #fe0222;
+  --orange: #fd7702;
+  --yellow: #ffbb00;
+
+  --background: var(--white);
+  --accent: var(--pink);
+
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--accent);
+  padding-bottom: 100px;
+  overflow-x: hidden;
+}
+
+
+.gallery ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+.gallery ul {
+  width: 100%;
+  padding-top: 25vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.gallery li {
+  font-size: 2rem;
+  margin-bottom: 1.6rem;
+}
+
+.gallery {
+  font-family: sofia-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.gallery h1,
+h2,
+h3 {
+  font-family: sofia-pro, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.gallery h1 {
+  --base-width: 8.2vw;
+  font-size: clamp(20px, var(--base-width), 700px);
+  font-weight: 700;
+  letter-spacing: -0.15rem;
+  line-height: 1.2;
+  text-align: center;
+  margin: 100px 0;
+  white-space: nowrap;
+  position: absolute;
+  top: -10vw;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.gallery h2 {
+  font-size: clamp(20px, 6vw, 700px);
+  font-weight: 400;
+  margin: 50px 0 10px;
+}
+
+.gallery p {
+  margin: 0 0 30px 0;
+  font-size: 18px;
+}
+
+
+
+.gallery ::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  background: var(--background);
+}
+
+.gallery ::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  -webkit-border-radius: 1ex;
+}
+
+.gallery ::-webkit-scrollbar-corner {
+  background: #fff3;
+}
+
+.gallery h2 {
+  margin: 0;
+  color: var(--accent);
+  left: calc(75vw);
+  font-weight: 700;
+  letter-spacing: -3px;
+  line-height: 1.2;
+  position: absolute;
+}
+
+.gallery section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  scroll-snap-align: center;
+  perspective: 500px;
+}
+
+.gallery section > div {
+  aspect-ratio: 4/3;
+  height: 80vh;
+  position: relative;
+  max-height: 90vh;
+  margin: 20px;
+  background: var(--white);
+  overflow: hidden;
+  background: var(--ash-black);
+}
+
+.gallery img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery .progress {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: var(--accent);
+  bottom: 100px;
+}
+
+

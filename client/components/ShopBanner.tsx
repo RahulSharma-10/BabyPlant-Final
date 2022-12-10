@@ -16,7 +16,7 @@ export default function Example() {
   .typeString('<strong><span style="color: #27ae60;">green</span></strong> and make an  ')
   .typeString('<strong><span style="color: #9999ff;">impact!</span></strong>')
   .pauseFor(300)
-  .typeString('See our wide range of products')
+  // .typeString('See our wide range of products')
   .start();
         }}
       /></div>

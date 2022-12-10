@@ -5,7 +5,7 @@ import { XMarkIcon } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, FunnelIcon, MinusIcon, PlusIcon, Squares2X2Icon } from '@heroicons/react/20/solid'
 import ProductList from "../components/ProductList";
 import {products} from "../products";
-
+import { motion } from "framer-motion"
 const subCategories = [
   {name:'All Products',href:'#'},
   { name: 'Hydroponics', href: '#' },
@@ -37,7 +37,7 @@ export default function Example() {
       });
       setFilteredProducts(result);
     }
-    
+
   }
 
   return (
@@ -118,7 +118,7 @@ export default function Example() {
                 <ul role="list" className="space-y-4 border-b border-gray-200 pb-6 text-sm font-medium text-white-900">
                   {subCategories.map((category) => (
                     <li key={category.name}>
-                      <div onClick={CategoryClickHandler} className="cursor-pointer">{category.name}</div>
+                      <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} onClick={CategoryClickHandler} className="cursor-pointer">{category.name}</motion.div>
                     </li>
                   ))}
                 </ul>
