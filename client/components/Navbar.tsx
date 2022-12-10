@@ -12,9 +12,9 @@ let num = 0;
 const navigation = [
 
   { name: 'Home', href: '/', current: false },
-  { name: 'Shop', href: 'shop', current: false },
-  { name: 'About Us', href: 'about-us', current: false },
-  { name: 'Knowledge', href: 'knowledge', current: false },
+  { name: 'Shop', href: '/products', current: false },
+  { name: 'About Us', href: '/about-us', current: false },
+  { name: 'Knowledge', href: '/knowledge', current: false },
 ]
 
 

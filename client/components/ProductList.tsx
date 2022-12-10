@@ -1,4 +1,3 @@
-import { useNavigate } from "react-router-dom";
 import Link from 'next/link';
 import { motion } from "framer-motion"
 import { JSXElementConstructor, Key, ReactElement, ReactFragment, ReactPortal, useState } from "react";
@@ -14,7 +13,7 @@ import { JSXElementConstructor, Key, ReactElement, ReactFragment, ReactPortal, u
             {props.items.map((product: { id: Key | null | undefined; images: {
               imageSrc: string | undefined; imageAlt: string | undefined; 
 }[]; name: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | ReactFragment | ReactPortal | null | undefined; price: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | ReactFragment | ReactPortal | null | undefined; }) => (
-              <Link href={{ pathname: '/ProductOverview', query: { object: JSON.stringify(product)} }}>
+             <Link href={`/products/${product.id}`}>
               <motion.div 
                 whileHover={{ scale: 1.2 }} 
                 whileTap={{ scale: 0.8 }}
@@ -37,4 +36,3 @@ import { JSXElementConstructor, Key, ReactElement, ReactFragment, ReactPortal, u
       </div>
     )
   }
-  

@@ -4,7 +4,7 @@ import Head from "next/head";
 import Scroll from "../components/Scroll";
 import Slider from "../components/Slider";
 import {Gallery} from "../components/Gallery";
-import { amsterdamPhotosMetadata, londonPhotosMetadata } from "./data";
+import { BTPPhotosMetadata} from "./data";
 
 const Knowledge=()=>{
     return(
@@ -16,14 +16,13 @@ const Knowledge=()=>{
         <Navbar/>
         <div className="gallery">
         <Gallery
-          photos={amsterdamPhotosMetadata}
+          photos={BTPPhotosMetadata}
           title=""
           titleWidth={8.2}
           category="BTP"
-          alt="A building in Amsterdam Zuid at night"
+          alt="PPT photo"
         />
         </div>
-        <Footer/>
         </>
     )
 }

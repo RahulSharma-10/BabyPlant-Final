@@ -13,11 +13,27 @@ interface Props {
 }
 
 const ease = [0.08, 0.37, 0.45, 0.89];
+const getLink = [
+    "",
+    "https://i.postimg.cc/pdCF1SsF/BTP-01.jpg",
+    "https://i.postimg.cc/c4dvtW0G/BTP-02.jpg",
+    "https://i.postimg.cc/TYQprs3L/BTP-03.jpg",
+    "https://i.postimg.cc/Cx1dJ4Rv/BTP-04.jpg",
+    "https://i.postimg.cc/wxXtBMKk/BTP-05.jpg",
+    "https://i.postimg.cc/ZnVX57WG/Copy-of-BTP-Presentation-Mid-Sem-7th-Semester-page-0006.jpg",
+    "https://i.postimg.cc/DfjCmbj3/Copy-of-BTP-Presentation-Mid-Sem-7th-Semester-page-0007.jpg",
+    "https://i.postimg.cc/LX0z4jHy/Copy-of-BTP-Presentation-Mid-Sem-7th-Semester-page-0008.jpg",
+    "https://i.postimg.cc/TP3QJV39/Copy-of-BTP-Presentation-Mid-Sem-7th-Semester-page-0009.jpg",
+    "https://i.postimg.cc/X7n55VJK/Copy-of-BTP-Presentation-Mid-Sem-7th-Semester-page-0010.jpg",
+    "https://i.postimg.cc/brmwkfCL/Copy-of-BTP-Presentation-Mid-Sem-7th-Semester-page-0011.jpg",
+    "https://i.postimg.cc/440C73wq/Copy-of-BTP-Presentation-Mid-Sem-7th-Semester-page-0012.jpg"
+]
 
 export function Image({ alt, category, index, aspectRatio }: Props) {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({ target: ref });
   const y = useParallax(scrollYProgress, "50vh");
+  let link = getLink[index];
 
   return (
     <motion.section
@@ -35,7 +51,7 @@ export function Image({ alt, category, index, aspectRatio }: Props) {
       }
     >
       <div ref={ref} style={{ aspectRatio }}>
-        <img src={`https://i.postimg.cc/pdCF1SsF/${category}-${index}.jpg`} alt={alt} />
+        <img src={`${getLink[index]}`} alt={alt} />
       </div>
       <motion.h2
         style={{ y }}

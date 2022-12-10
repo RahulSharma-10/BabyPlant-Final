@@ -1,5 +1,3 @@
-
-
 const AboutTeam =() => {
 
     return(
@@ -22,7 +20,7 @@ const AboutTeam =() => {
                 Mr. Sourabh Kumar is a widely renowned entrpereneur. 
             </p>
         </div>
-        <div className="flex items-center justify-between w-40 pt-8 mx-auto text-gray-500 border-t border-gray-200">
+        {/* <div className="flex items-center justify-between w-40 pt-8 mx-auto text-gray-500 border-t border-gray-200">
             <a href="#">
                 <svg width="30" height="30" fill="currentColor" className="text-xl transition-colors duration-200 hover:text-gray-800 dark:hover:text-white" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z">
@@ -53,7 +51,7 @@ const AboutTeam =() => {
                     </path>
                 </svg>
             </a>
-        </div>
+        </div> */}
     </div>
 </div>
 </div>

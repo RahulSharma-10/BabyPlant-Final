@@ -31,9 +31,9 @@ export default function Flow() {
     </div>
 
     <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-      <a
+      <div
         className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-        href="/services/digital-campaigns"
+       
       >
         {/* <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -62,11 +62,11 @@ export default function Flow() {
         <p className="mt-1 text-sm text-gray-300">
           It consumes 20 times less water than conventional agriculture, as the water is recirculated and reused.
         </p>
-      </a>
+      </div>
 
-      <a
+      <div
         className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-        href="/services/digital-campaigns"
+        
       >
         <FontAwesomeIcon
         icon={faClock}
@@ -79,11 +79,11 @@ export default function Flow() {
         The produce increases multifold between three and ten times more food than conventional agriculture in the same space. 
         The plants also grow in half the time
         </p>
-      </a>
+      </div>
 
-      <a
+      <div
         className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-        href="/services/digital-campaigns"
+        
       >
         <FontAwesomeIcon
         icon={faBacteria}
@@ -96,11 +96,11 @@ export default function Flow() {
         Since it is a closed system, there is neither water contamination nor soil with the 
         remains of fertilisers or pesticides.
         </p>
-      </a>
+      </div>
 
-      <a
+      <div
         className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-        href="/services/digital-campaigns"
+        
       >
         
         <FontAwesomeIcon
@@ -113,11 +113,11 @@ export default function Flow() {
           Owing to the absence of soil, It allows plants to be grown in harsh environments, 
           under extreme weather conditions since the system can be controlled.
         </p>
-      </a>
+      </div>
 
-      <a
+      <div
         className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-        href="/services/digital-campaigns"
+        
       >
         
         <FontAwesomeIcon
@@ -130,11 +130,10 @@ export default function Flow() {
         There is no need for herbicides or pesticides: they are safe from weeds and insects, 
         making unnecessaries the use of these products.
         </p>
-      </a>
+      </div>
 
-      <a
+      <div
         className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-        href="/services/digital-campaigns"
       >
         
         <FontAwesomeIcon
@@ -147,7 +146,7 @@ export default function Flow() {
           After the initial setup, Hydroponic Systems are relatively much easier to maintainence. Also, the recurrence
           of maintainence requirements is lower resulting in much lower maintainence cost and effort.
         </p>
-      </a>
+      </div>
     </div>
   </div>
 </section>

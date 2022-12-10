@@ -1,13 +1,6 @@
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import { useSpring, animated, config } from 'react-spring'
-import {useState} from 'react'
-import { motion } from "framer-motion";
 import Slider from "./Slider";
 import Typewriter from 'typewriter-effect';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlantWilt } from '@fortawesome/free-solid-svg-icons'
+
 
 export default function Flow() {
     return (
@@ -28,19 +21,19 @@ export default function Flow() {
         Welcome to Baby Plant. Home of sustainable Hydroponics and Aquaponics farms.
         We are based in Ranchi and ship nationwide!
         </p>
-        <div className='text-4xl font-bold mt-4'>
+        <div className='text-3xl font-bold mt-4 sm:text-4xl'>
         <Typewriter
+        options={{
+          loop: true,
+        }}
         onInit={(typewriter) => {
-          typewriter.typeString('Welcome')
-            .callFunction(() => {
-              console.log('String typed out!');
-            })
-            .pauseFor(2500)
-            // .deleteAll()
-            .callFunction(() => {
-              console.log('All strings were deleted');
-            })
-            .start();
+          typewriter.typeString('Shop With Us')
+          .pauseFor(500)
+          .deleteAll()
+          .typeString('<strong><span style="color: #27ae60;">Shop With Us</span></strong>')
+          .pauseFor(2500)
+          .deleteAll()
+          .start();
         }}
       />
 </div>
