@@ -4,7 +4,7 @@ import Head from "next/head";
 import Scroll from "../components/Scroll";
 import Slider from "../components/Slider";
 import {Gallery} from "../components/Gallery";
-import { BTPPhotosMetadata} from "./data";
+import { BTPPhotosMetadata} from "../public/ata/data";
 
 const Knowledge=()=>{
     return(

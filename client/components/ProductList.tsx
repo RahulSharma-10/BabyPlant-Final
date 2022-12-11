@@ -15,7 +15,7 @@ import { JSXElementConstructor, Key, ReactElement, ReactFragment, ReactPortal, u
 }[]; name: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | ReactFragment | ReactPortal | null | undefined; price: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | ReactFragment | ReactPortal | null | undefined; }) => (
              <Link href={`/products/${product.id}`}>
               <motion.div 
-                whileHover={{ scale: 1.2 }} 
+                whileHover={{ scale: 1.1 }} 
                 whileTap={{ scale: 0.8 }}
                 key={product.id}  
                 className="group">
@@ -27,7 +27,7 @@ import { JSXElementConstructor, Key, ReactElement, ReactFragment, ReactPortal, u
                   />
                 </div>
                 <h3 className="mt-4 text-sm text-white">{product.name}</h3>
-                <p className="mt-1 text-lg font-medium text-white">{product.price}</p>
+                <p className="mt-1 text-lg font-medium text-white">₹ {product.price}</p>
                 </motion.div>
               </Link>
             ))}

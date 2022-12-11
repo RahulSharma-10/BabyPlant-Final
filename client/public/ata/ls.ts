@@ -3,7 +3,7 @@ export  const products = [
       id: 1,
       name: 'Grow system - 18 Plants NFT System',
       href: '#',
-      price: '₹8,500.00',
+      price: 8500,
       images: [
         {
         imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/1/8/18-plants-system_1.jpeg',
@@ -22,7 +22,7 @@ export  const products = [
       id: 2,
       name: 'Grow System - 26 plants NFT System',
       href: '#',
-      price: '₹10,500.00',
+      price: 10500,
       images: [
         {
             imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/i/m/img_9046.jpg',
@@ -41,7 +41,7 @@ export  const products = [
       id: 3,
       name: 'Grow System - 36 plants Vertical NFT System',
       href: '#',
-      price: '₹16,500.00',
+      price: 16500,
       images: [
         {
             imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/h/a/half-pyramid-52-plants-system_1.jpg',
@@ -60,7 +60,7 @@ export  const products = [
       id: 4,
       name: 'Grow System - 52 plants Vertical NFT System',
       href: '#',
-      price: '₹19,500.00',
+      price: 19500,
       images: [
         {
           imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/h/y/hydroponics-190plants-pyramid-system.jpg',
@@ -79,7 +79,7 @@ export  const products = [
         id: 5,
         name: 'Grow System - 18 Plants Indoor NFT System',
         href: '#',
-        price: '₹12,500.00',
+        price: 12500,
         images: [
           {
           imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/i/n/indoor-system.jpeg',
@@ -99,7 +99,7 @@ export  const products = [
         id: 6,
         name: 'General Bloom Nutrients - 500 Litres',
         href: '#',
-        price: 'Rs. 460',
+        price: 460,
         images: [
           {
               imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/b/l/bloom_1.jpg',
@@ -123,7 +123,7 @@ export  const products = [
         id: 7,
         name: 'Capsicum Special Mix - 500 Liters',
         href: '#',
-        price: 'Rs. 455',
+        price: 455,
         images: [
           {
               imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/y/e/yellow-bell-peppers_2.jpg',
@@ -147,7 +147,7 @@ export  const products = [
         id: 8,
         name: 'Chillies Special Mix - 500 Liters',
         href: '#',
-        price: 'Rs. 460',
+        price: 460,
         images: [
           {
               imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/c/h/chillis.jpg',
@@ -171,7 +171,7 @@ export  const products = [
         id: 9,
         name: 'Cucumber Special Mix - 500 Liters',
         href: '#',
-        price: 'Rs. 460',
+        price: 460,
         images: [
           {
               imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/e/n/english-cucumbers_1.jpg',
@@ -195,7 +195,7 @@ export  const products = [
         id: 10,
         name: 'General Grow Nutrients - 500 Liters',
         href: '#',
-        price: 'Rs. 460',
+        price:  460,
         images: [
           {
               imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/g/e/general-grow-nutrients_1.jpg',
@@ -219,7 +219,7 @@ export  const products = [
         id: 11,
         name: 'Lettuce Special Mix - 500 liters',
         href: '#',
-        price: 'Rs. 450',
+        price: 450,
         images: [
           {
               imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/l/e/lettuce_1.png',
@@ -243,7 +243,7 @@ export  const products = [
         id: 12,
         name: 'Oregano Special Mix - 500 liters',
         href: '#',
-        price: 'Rs. 450',
+        price: 450,
         images: [
           {
               imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/o/r/oregano_2.jpg',
@@ -267,7 +267,7 @@ export  const products = [
         id: 13,
         name: 'Strawberry Special Mix - 500 L',
         href: '#',
-        price: 'Rs. 455',
+        price: 455,
         images: [
           {
               imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/s/t/strawberries.jpg',
@@ -291,7 +291,7 @@ export  const products = [
         id: 14,
         name: 'Tomato Special Mix - 500 L',
         href: '#',
-        price: 'Rs. 460',
+        price: 460,
         images: [
           {
               imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/c/h/cherry-tomato_grande.jpg',
@@ -315,7 +315,7 @@ export  const products = [
         id: 15,
         name: 'Coco Peat BLOCK - (650 grams)',
         href: '#',
-        price: 'Rs. 85',
+        price: 85,
         images: [
           {
               imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/6/5/650grams.jpg',
@@ -337,7 +337,7 @@ export  const products = [
         id: 16,
         name: 'Expanded Clay Pellets (1 kg, 8-16 mm)',
         href: '#',
-        price: 'Rs. 175',
+        price: 175,
         images: [
           {
               imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/e/x/expanded-clay-balls.jpg',
@@ -360,7 +360,7 @@ export  const products = [
         id: 17,
         name: 'Cherry Tomato Seeds',
         href: '#',
-        price: 'Rs. 80',
+        price: 80,
         images: [
           {
               imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/c/h/cherry-tomato-seeds.jpg',
@@ -384,7 +384,7 @@ export  const products = [
         id: 18,
         name: 'Methi (Kasturi Fenugreek) Seeds (20 grams)',
         href: '#',
-        price: 'Rs. 55',
+        price:  55,
         images: [
           {
               imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/m/e/methi.jpg',
@@ -407,7 +407,7 @@ export  const products = [
         id: 19,
         name: 'Dutch Bucket-Grow System - 10 Plants',
         href: '#',
-        price: '₹7,500.00',
+        price: 7500,
         images: [
           {
           imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/i/n/indoor-system.jpeg',
@@ -426,7 +426,7 @@ export  const products = [
         id: 20,
         name: 'Dutch Bucket-Grow System - 5 Plants',
         href: '#',
-        price: '₹4,500.00',
+        price: 4500,
         images: [
           {
           imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/d/u/dutch-bucket-system.png',
@@ -445,7 +445,7 @@ export  const products = [
         id: 21,
         name: '12 Plants Growing Kit DWC(Deep Water Culture)',
         href: '#',
-        price: '₹1,800.00',
+        price: 1800,
         images: [
           {
           imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/k/r/kratky-method-dwc.png',
@@ -464,7 +464,7 @@ export  const products = [
         id: 22,
         name: 'DWC(Deep Water Culture) - 32sqft',
         href: '#',
-        price: '₹16,000.00',
+        price: 16000,
         images: [
           {
           imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/d/w/dwc_2.jpg',
@@ -483,7 +483,7 @@ export  const products = [
         id: 23,
         name: 'Microgreens Growing kit',
         href: '#',
-        price: '₹16,000.00',
+        price: 16000,
         images: [
           {
           imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/g/r/growing-pea-shoots-sprouts-microgreens-3903-640x427.jpg',
@@ -502,7 +502,7 @@ export  const products = [
         id: 24,
         name: 'Openable NFT Channels (124X68mm) With End Caps - 30 meters',
         href: '#',
-        price: '₹12,000.00',
+        price: 12000,
         images: [
           {
           imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/n/f/nft-pipes.jpeg',
@@ -521,7 +521,7 @@ export  const products = [
         id: 25,
         name: '3 inch net pots for Hydroponics, Aquaponics, Aeroponics & Nursery, 50 Pieces',
         href: '#',
-        price: '₹350.00',
+        price: 350,
         images: [
           {
           imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/h/n/hnp3.jpg',
@@ -540,7 +540,7 @@ export  const products = [
         id: 26,
         name: '2 inch net pots for Hydroponics, Aquaponics, Aeroponics & Nursery, 50 Pieces',
         href: '#',
-        price: '₹265.00',
+        price: 265,
         images: [
           {
             imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/2/-/2-inch.jpg',
@@ -560,7 +560,7 @@ export  const products = [
         id: 27,
         name: 'Sunsun DY 30 Electrical Magnetic Air Pump',
         href: '#',
-        price: '₹2,050.00',
+        price: 2050,
         images: [
           {
             imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/s/u/sunsun-dy-50-air-pump.jpg',
@@ -580,7 +580,7 @@ export  const products = [
         id: 28,
         name: 'Sun Sun HQB 3000 Multi Function Submersible Pump',
         href: '#',
-        price: '₹1,800.00',
+        price: 1800,
         images: [
           {
             imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/h/q/hqb3000.jpg',
@@ -599,7 +599,7 @@ export  const products = [
         id: 28,
         name: 'Sun Sun HQB 3000 Multi Function Submersible Pump',
         href: '#',
-        price: '₹1,800.00',
+        price: 1800,
         images: [
           {
             imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/h/q/hqb3000.jpg',
@@ -618,7 +618,7 @@ export  const products = [
         id: 29,
         name: 'Aquaponics Fish Tank - 1000 liters capacity',
         href: '#',
-        price: '₹9,500.00',
+        price: 9500,
         images: [
           {
             imageSrc: 'https://hydrilla.in/store/media/catalog/product/cache/2/image/600x600/958f60a396114865c6863491507366d5/f/i/fish_tanks.png',

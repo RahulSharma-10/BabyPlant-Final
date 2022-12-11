@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { StarIcon } from '@heroicons/react/20/solid'
 import Navbar from "../../components/Navbar";
-import { products } from '../../products';
+import { products } from '../../public/ata/ls';
 
 
 
@@ -59,7 +59,7 @@ function Example( {productdata}:{productdata:any}){
           {/* Options */}
           <div className="mt-4 lg:row-span-3 lg:mt-0">
             <h2 className="sr-only">Product information</h2>
-            <p className="text-3xl tracking-tight text-white">{productdata.price}</p>
+            <p className="text-3xl tracking-tight text-white">₹ {productdata.price}</p>
 
             {/* Reviews */}
             <div className="mt-6">

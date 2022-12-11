@@ -8,10 +8,10 @@ import Featured from "../components/Featured/Featured";
 import Glimpses2 from "../components/Testimonial2/Testimonial2";
 import Banner from "../components/Banner";
 import Scroll from "../components/Scroll";
+import AboutUsGallery from "../components/AboutUsGallery/AboutUsGallery";
 
 export default function Home() {
 
-  let [products, setProducts] = useState([]);
 
   // useEffect(() => {
   //   axios
@@ -28,8 +28,11 @@ export default function Home() {
     </Head>
       <Navbar />
       <Banner />
+      
       <Flow />
+      
       <Benefits />
+      <AboutUsGallery/>
       <Featured/>
       <Glimpses2/>
       <Footer />
