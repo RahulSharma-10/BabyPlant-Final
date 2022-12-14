@@ -1,0 +1,4 @@
+[build]
+   ignore = "/bin/false"
+   command= "npm run build"
+   
