@@ -37,7 +37,9 @@ export function Gallery({ category, alt, title, titleWidth, photos }: Props) {
         {title}
       </motion.h1>
       {photos.map(({ aspectRatio }, index) => (
-        <Image
+        <Image 
+        key={index}
+        
           category={category}
           index={index + 1}
           alt={alt}

@@ -1,6 +1,6 @@
 import Slider from "./Slider";
 import Typewriter from 'typewriter-effect';
-
+import Link from "next/link";
 
 export default function Flow() {
     return (
@@ -37,7 +37,7 @@ export default function Flow() {
         }}
       />
 </div>
-        <a
+        <Link
           className="mt-8 inline-flex items-center rounded border border-indigo-600 bg-indigo-600 px-8 py-3 text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
         href="/products">
           <span className="text-sm font-medium"> Shop Now </span>
@@ -56,7 +56,7 @@ export default function Flow() {
               d="M17 8l4 4m0 0l-4 4m4-4H3"
             />
           </svg>
-        </a>
+        </Link>
       </div>
     </div>
   </div>

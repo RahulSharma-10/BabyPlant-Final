@@ -1,3 +1,6 @@
+import Img from 'next/image';
+import Link from 'next/link';
+
 export default function Flow() {
     return (
 <footer
@@ -5,10 +8,11 @@ aria-label="Site Footer"
   className="bg-gray-900 text-white lg:grid lg:grid-cols-5"
 >
   <div className="hidden lg:relative lg:col-span-2 lg:block">
-    <img
+    <Img
       alt="Art"
-      src="https://i.postimg.cc/6pwMg5C8/Screenshot-2022-12-10-at-9-33-14-PM.png"
+      src="https://images.unsplash.com/photo-1518931169559-527a99b4074d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
       className="absolute inset-0 h-full w-full object-cover"
+      width={500} height={300}
     />
   </div>
 
@@ -147,10 +151,10 @@ aria-label="Site Footer"
             aria-label="Footer Nav"
             className="mt-4 flex flex-col space-y-2 text-sm text-gray-300"
           >
-            <a className="hover:opacity-75" href="/"> Home </a>
-            <a className="hover:opacity-75" href="/products"> Shop </a>
-            <a className="hover:opacity-75" href="/about-us"> About Us </a>
-            <a className="hover:opacity-75" href="/knowledge"> Knowledge </a>
+            <Link className="hover:opacity-75" href="/"> Home </Link>
+            <Link className="hover:opacity-75" href="/products"> Shop </Link>
+            <Link className="hover:opacity-75" href="/about-us"> About Us </Link>
+            <Link className="hover:opacity-75" href="/knowledge"> Knowledge </Link>
           </nav>
         </div>
 

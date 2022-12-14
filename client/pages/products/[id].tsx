@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { StarIcon } from '@heroicons/react/20/solid'
 import Navbar from "../../components/Navbar";
 import { products } from '../../public/ata/ls';
-
+import Img from 'next/image';
 
 
 
@@ -35,16 +35,18 @@ function Example( {productdata}:{productdata:any}){
         {/* Image gallery */}
         <div className="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="aspect-w-3 aspect-h-4 hidden overflow-hidden rounded-lg lg:block">
-            <img
+            <Img
               src={productdata.images[0].imageSrc}
               alt={productdata.images[0].imageAlt}
+              width={500} height={300}
               className="h-full w-full object-cover object-center"
             />
           </div>
           <div className="aspect-w-4 aspect-h-5 sm:overflow-hidden sm:rounded-lg lg:aspect-w-3 lg:aspect-h-4">
-            <img
+            <Img
               src={productdata.images[1].imageSrc}
               alt={productdata.images[1].imageAlt}
+              width={500} height={300}
               className="h-full w-full object-cover object-center"
             />
           </div>
@@ -104,13 +106,13 @@ function Example( {productdata}:{productdata:any}){
             </div>
 
             <div className="mt-10">
-              { productdata.details.length!==0&&<h3 className="text-sm font-medium text-white-900">Details</h3>}
+              { productdata.details.length!==0&&<h3 className="text-sm font-medium text-white">Details</h3>}
 
              { productdata.details.length!==0&&<div className="mt-4">
                 <ul role="list" className="list-disc space-y-2 pl-4 text-sm">
                   {productdata.details.map((highlight:any) => (
                     <li key={highlight} className="text-white-400">
-                      <span className="text-white-600">{highlight}</span>
+                      <span className="text-white">{highlight}</span>
                     </li>
                   ))}
                 </ul>

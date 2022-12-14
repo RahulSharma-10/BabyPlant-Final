@@ -1,22 +1,24 @@
+import Img from 'next/image';
+
 const AboutTeam =() => {
 
     return(
-<div>
-<div className="relative py-2">
-    <div className="absolute mb-4 text-center transform translate-x-1/2 -top-16 right-1/2">
-        <a href="#" className="relative block">
-            <img alt="profil" src="https://i.postimg.cc/mr58VxWd/296693128-1519137811892060-3198089988025094048-n.jpg" className="mx-auto object-cover rounded-lg h-40 w-40  border-2 border-white dark:border-gray-800"/>
-        </a>
+<div className='bg-gray-900'>
+<div className="relative py-2 bg-gray-900">
+    <div className="absolute mb-4 text-center transform translate-x-1/2 -top-16 bg-gray-900 right-1/2">
+        <div className="relative block">
+            <Img alt="profil" width={500} height={300} src="https://i.postimg.cc/mr58VxWd/296693128-1519137811892060-3198089988025094048-n.jpg" className="mx-auto object-cover rounded-lg h-40 w-40  border-2 border-white dark:border-gray-800"/>
+        </div>
     </div>
-    <div className="py-4 pt-24 bg-white rounded-lg shadow dark:bg-gray-800">
+    <div className="py-4 pt-24 bg-gray-900 rounded-lg shadow dark:bg-gray-800">
         <div className="text-center">
-            <p className="text-2xl text-gray-800 dark:text-white">
+            <p className="text-2xl text-white dark:text-white">
                 Sourabh Kumar
             </p>
-            <p className="text-xl font-light text-gray-500 dark:text-gray-200">
+            <p className="text-xl font-light text-white dark:text-gray-200">
                 Chief Executive Officer and Entrepreneur
             </p>
-            <p className="py-4 mx-auto font-light text-gray-500 text-md w-60 dark:text-gray-400">
+            <p className="py-4 mx-auto font-light text-white text-md w-60 dark:text-white">
                 Mr. Sourabh Kumar is a widely renowned entrpereneur. 
             </p>
         </div>

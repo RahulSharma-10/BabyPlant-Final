@@ -5,6 +5,7 @@ import { useLocation } from 'react-router-dom';
 import {useRouter} from 'next/router';
 import Img from 'next/image';
 import logo from './../Assets/logo.png';
+import Link from 'next/link';
 
 let num = 0;
 
@@ -73,7 +74,7 @@ export default function Example() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                <a href='/'>
+                <Link href='/'>
                   <Img
                     className="block h-8 w-auto lg:hidden"
                     src={logo}
@@ -85,7 +86,7 @@ export default function Example() {
                     src={logo}
                     alt="Your Company"
                   />
-                  </a>
+                  </Link>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">

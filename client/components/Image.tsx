@@ -1,5 +1,6 @@
 import { motion, MotionValue, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import Img from 'next/image';
 
 function useParallax(value: MotionValue<number>, distance: string) {
   return useTransform(value, [0, 1], ["-" + distance, distance]);
@@ -51,7 +52,7 @@ export function Image({ alt, category, index, aspectRatio }: Props) {
       }
     >
       <div ref={ref} style={{ aspectRatio }}>
-        <img src={`${getLink[index]}`} alt={alt} />
+        <Img src={`${getLink[index]}`} alt={alt} width={500} height={500}/>
       </div>
       <motion.h2
         style={{ y }}

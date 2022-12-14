@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
+import Image from 'next/image';
 import { JSXElementConstructor, Key, ReactElement, ReactFragment, ReactPortal, useState } from "react";
   
   
@@ -13,7 +14,7 @@ import { JSXElementConstructor, Key, ReactElement, ReactFragment, ReactPortal, u
             {props.items.map((product: { id: Key | null | undefined; images: {
               imageSrc: string | undefined; imageAlt: string | undefined; 
 }[]; name: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | ReactFragment | ReactPortal | null | undefined; price: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | ReactFragment | ReactPortal | null | undefined; }) => (
-             <Link href={`/products/${product.id}`}>
+             <Link href={`/products/${product.id}`} key={product.id}>
               <motion.div 
                 whileHover={{ scale: 1.1 }} 
                 whileTap={{ scale: 0.8 }}
