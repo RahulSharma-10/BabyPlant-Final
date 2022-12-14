@@ -2,23 +2,24 @@
 import TestimonialCard from './TestimonialCard';
 import CustomCarousal from './CustomCarousal';
 //import bgTest from './../../Assets/card-background.jpeg';
+
 const data = [
 	{
 		
 		message:
-			"Hello, it has been a great journey with Wonderhood. I couldn't have asked for a better preschool for my daughter. She just completed 6 months with wonderLearn. It has been an amazing experience. ",
+			"Pleasant experience and insightful advice for taking care of these plants in a simple way instead of just going by my own understanding. I felt like baby plant did a good job in arranging the delivery and also sharing care to guide to us. ",
 		writer: 'Sameer Saxena '
 	},
 	{
 		
 		message:
-			"Wonderlearn platform is a flexible platform as they offer evening classes. My child Vivaansh used to eagerly wait for the classes n activities. Toys,teaching and technology was impressive and qualitative.",
-		writer: 'Chethana '
+			"It is my second order already and I'm very happy with my purchase, plants were packed very carefully and delivered well, no damage. I highly recommend baby plant to everyone! Will order again!",
+		writer: 'Chethana'
 	},
 
 	{
 		message:
-			"During covid it is very difficult to make kids sit and listen to the class but wonderlearn made it by taking the kids through the course by changing their mode from boredom to learning mood with lots of fun. Looking forward to more and better levels of courses.",
+			"I got few plants from baby plant yesterday and they answered to all my questions before I proceed with the purchase and they even made a follow up to offer plant care tips. Great work guys, very satisfied with their services.",
 		writer: 'Swarna '
 	}
 ];

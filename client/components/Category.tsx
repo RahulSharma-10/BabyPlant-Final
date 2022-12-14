@@ -74,6 +74,7 @@ export default function Example() {
         
         return arr;
       });
+      
       console.log(filteredProducts);
     }
   }

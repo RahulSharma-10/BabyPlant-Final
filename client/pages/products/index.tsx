@@ -5,6 +5,7 @@ import Footer from "../../components/Footer";
 import Head from 'next/head';
 import Scroll from "../../components/Scroll";
 import ShopBanner from "./../../components/ShopBanner";
+
 const Products=()=>{
     return(
         <>
