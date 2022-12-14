@@ -1,11 +1,13 @@
 {
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@use-gesture/react": "^10.2.22",
     "font-awesome": "^4.7.0",
     "framer-motion": "^7.6.19",
+    "react": "^18.2.0",
     "react-router": "^6.4.4",
     "react-router-dom": "^6.4.4",
     "react-slick": "^0.29.0",
