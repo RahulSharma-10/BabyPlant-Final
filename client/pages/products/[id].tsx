@@ -3,6 +3,7 @@ import { StarIcon } from '@heroicons/react/20/solid'
 import Navbar from "../../components/Navbar";
 import { products } from '../../public/ata/ls';
 import Img from 'next/image';
+import Link from 'next/link';
 
 
 
@@ -84,12 +85,13 @@ function Example( {productdata}:{productdata:any}){
                   {reviews.totalCount} reviews
                 </div>
               </div>
-              <button
-                type="submit"
+              <Link
+                href="https://api.whatsapp.com/send?phone=9304206996"
+                target="_blank"
                 className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 py-3 px-8 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
               >
                 Buy Now
-              </button>
+              </Link>
             </div>
 
             
