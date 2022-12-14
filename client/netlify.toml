@@ -1,4 +1,4 @@
 [build]
    publish = "client/.next"
    ignore = "/bin/false"
-   command= "npm run build"
+   command = "echo 'default context'"
