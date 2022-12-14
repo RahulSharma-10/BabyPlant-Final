@@ -1,4 +1,4 @@
 [build]
-   base = ".next"
+   base = "client/.next"
    ignore = "/bin/false"
    command= "npm run build"
