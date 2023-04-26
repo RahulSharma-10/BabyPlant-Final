@@ -16,6 +16,7 @@ const navigation = [
   { name: 'Shop', href: '/products', current: false },
   { name: 'About Us', href: '/about-us', current: false },
   { name: 'Knowledge', href: '/knowledge', current: false },
+  { name: 'Plant Recommender', href: '/recommender', current: false },
 ]
 
 
@@ -25,7 +26,7 @@ function classNames(...classes: string[]) {
 
 function routeNav(idx: number)
 {
-  for(let i =0; i<4;i++)
+  for(let i =0; i<5;i++)
     {
       if(i==idx)
       {
@@ -49,6 +50,9 @@ export default function Example() {
     routeNav(3);
   }else if(tot.pathname=="/about-us"){
     routeNav(2);
+  }else if(tot.pathname=="/recommender")
+  {
+    routeNav(4);
   }
   else{
     routeNav(1);
